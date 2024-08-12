@@ -1,0 +1,35 @@
+.navbarStyle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(255, 166, 0, 0.209);
+}
+.navbarStyle ul {
+  display: flex;
+  flex-direction: row;
+}
+.navbarStyle ul:nth-child(2) {
+  justify-content: end;
+}
+.navbarStyle ul li {
+  color: rgba(255, 140, 0, 0.752);
+  margin-left: 30px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.headerStyle {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../assets/images/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg.webp");
+  background-repeat: none;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.headerStyle h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}

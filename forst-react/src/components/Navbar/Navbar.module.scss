@@ -1,0 +1,21 @@
+.navbarStyle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(255, 166, 0, 0.209);
+    ul{
+        display: flex;
+        flex-direction: row;
+        &:nth-child(2){
+            justify-content: end;
+        }
+        li{
+            color: rgba(255, 140, 0, 0.752);
+            margin-left: 30px;
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+
+}
