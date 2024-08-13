@@ -14,7 +14,15 @@ function App() {
    const firstUser = 'Omid';
    const secondUser = 'Lionel Richie';
    const thirdUser = 'Trump';
-    const HeaderFirst = 'Props er cool';
+   const HeaderFirst = 'Props er cool';
+   const dishes = [
+      'Pizza',
+      'Sushi',
+      'Pasta',
+      'Tacos',
+      'Ice Cream'
+    ];
+  
  
    return (
     
@@ -25,7 +33,7 @@ function App() {
        <Greeting name={firstUser} />
        <Greeting name={secondUser} />
       <Greeting name={thirdUser} />
-       <Main/>
+       <Main name={dishes}/>
        <Footer/>
        </>
    ) 

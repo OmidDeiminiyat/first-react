@@ -6,7 +6,7 @@ export const Header = (props) => {
             <section className={style.headerStyle}>
                 <h1>{props.name}</h1>
             </section>
-           
-
     );
+
+  
 }
