@@ -14,11 +14,13 @@ function App() {
    const firstUser = 'Omid';
    const secondUser = 'Lionel Richie';
    const thirdUser = 'Trump';
+    const HeaderFirst = 'Props er cool';
+ 
    return (
     
       <>
       <Navbar/>
-      <Header/>
+      <Header name={HeaderFirst}/>
        <p>Hej verden</p>
        <Greeting name={firstUser} />
        <Greeting name={secondUser} />
