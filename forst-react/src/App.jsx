@@ -5,15 +5,24 @@ import { Header } from './components/header/header';
 import { Main } from './components/main/main';
 import { Footer } from './components/footer/footer';
 import { Navbar } from './components/Navbar/Navbar';
+import Greeting from './components/Greeting/Greeting';
+
+
 import './styles/App.scss';
  
 function App() { 
+   const firstUser = 'Omid';
+   const secondUser = 'Lionel Richie';
+   const thirdUser = 'Trump';
    return (
     
       <>
       <Navbar/>
       <Header/>
        <p>Hej verden</p>
+       <Greeting name={firstUser} />
+       <Greeting name={secondUser} />
+      <Greeting name={thirdUser} />
        <Main/>
        <Footer/>
        </>
