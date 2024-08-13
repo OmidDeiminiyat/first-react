@@ -6,6 +6,7 @@ import { Main } from './components/main/main';
 import { Footer } from './components/footer/footer';
 import { Navbar } from './components/Navbar/Navbar';
 import Greeting from './components/Greeting/Greeting';
+import Button from './components/Button/Button';
 
 
 import './styles/App.scss';
@@ -22,6 +23,9 @@ function App() {
       'Tacos',
       'Ice Cream'
     ];
+    const handleClick = () => {
+      alert('Button clicked!');
+    };
   
  
    return (
@@ -34,6 +38,28 @@ function App() {
        <Greeting name={secondUser} />
       <Greeting name={thirdUser} />
        <Main name={dishes}/>
+
+       <div>
+      <h1>Button Component Example</h1>
+      <Button 
+        action={handleClick} 
+        size="small" 
+        theme="light" 
+        text="Small Light Button" 
+      />
+      <Button 
+        action={handleClick} 
+        size="medium" 
+        theme="dark" 
+        text="Medium Dark Button" 
+      />
+      <Button 
+        action={handleClick} 
+        size="large" 
+        theme="light" 
+        text="Large Light Button" 
+      />
+    </div>
        <Footer/>
        </>
    ) 

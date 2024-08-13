@@ -10,7 +10,7 @@ export const Main = (props) => {
                 <ul>
                 {props.name.map((omidDishes, index) => (
                 <li key={index}>{omidDishes}</li>
-      ))}
+                ))}
                 </ul>
             </article>
         </div>
