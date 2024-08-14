@@ -1,4 +1,4 @@
-import './Button.module.scss';
+import style from './Button.module.scss';
 
 const Button = ({ action, size = 'medium', theme = 'light', text }) => {
   // Define the class names based on props
