@@ -38,7 +38,6 @@ function App() {
        <Greeting name={secondUser} />
       <Greeting name={thirdUser} />
        <Main name={dishes}/>
-
        <div>
       <h1>Button Component Example</h1>
       <Button 
